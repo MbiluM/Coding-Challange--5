@@ -38,3 +38,9 @@ cartIteams.shift ()
 console.log(cartIteams) 
 //["Popcorn", "Sour Patch Kids", "Grape Slushy"]
 
+// Task 4 - Price Adjustments
+
+let price = [100, 200, 300]
+let discountedPrices = price.map(price => price * 0.1);
+console.log(discountedPrices) // Output [10, 20, 30]
+
