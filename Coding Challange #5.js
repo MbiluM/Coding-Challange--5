@@ -61,4 +61,9 @@ console.log(totalRevenue) //Output = 1400
  let findCustomer = customers.find (customer => customer == "Charlie");
  console.log(findCustomer)
 
- 
+ // Task 8 - Tax Calculation
+ function calculateTax(amount, taxRate) {
+    return (amount * taxRate)
+ }
+ console.log(calculateTax(500, 0.1))
+
