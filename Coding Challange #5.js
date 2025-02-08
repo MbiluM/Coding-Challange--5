@@ -72,3 +72,9 @@ function calculateDiscount(price, discount) {
     return (price * discount)
 }
 console.lod(calculateDiscount(1000, 0.25))
+
+// Task 10 - Loyalty Points
+const calculatePoints = (revenue, points) => revenue/10;
+console.log(calculatePoints(1200))
+
+
