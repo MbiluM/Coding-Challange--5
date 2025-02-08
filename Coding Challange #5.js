@@ -51,4 +51,7 @@ const inventory = [5, 0, 12, 8, 0]
 const availableProducts = inventory.filter(quantity => quantity > 0); //Remove products with 0 quantity 
 console.log(availableProducts) // Output = [5, 12, 8]
 
-
+// Task 6 - Revenue Calculation
+let sales = [500, 300, 200, 400];
+let totalRevenue = sales.reduce((total, sale) => total + sale, 0); // Reduse sales to a single unit
+console.log(totalRevenue) //Output = 1400
