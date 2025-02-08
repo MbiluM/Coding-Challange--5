@@ -55,3 +55,10 @@ console.log(availableProducts) // Output = [5, 12, 8]
 let sales = [500, 300, 200, 400];
 let totalRevenue = sales.reduce((total, sale) => total + sale, 0); // Reduse sales to a single unit
 console.log(totalRevenue) //Output = 1400
+
+// Task 7 - Customer Search
+ let customers = ["Alice", "Bob", "Charlie", "David"];
+ let findCustomer = customers.find (customer => customer == "Charlie");
+ console.log(findCustomer)
+
+ 
