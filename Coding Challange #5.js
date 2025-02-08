@@ -4,9 +4,10 @@ let customer = { //Customer Infomation
     age: 35,
     email: "john.doe@email.com"
 };
-console.log('name: ${customer.name}') //Log each property
-console.log('age: ${customer.age}')
-console.log('emial: ${customer.email}')
+console.log ('name: ${customer.name}') //Log each property
+console.log ('age: ${customer.age}')
+console.log ('emial: ${customer.email}')
+
 
 // Task 2 - Order Details
 const order = { 
@@ -20,9 +21,9 @@ const order = {
     }
 };
 
-// Task 3 - Shopping Cart
 
-let cartIteams = [ 
+// Task 3 - Shopping Cart
+let cartIteams = [ //Iteams
     "Popcorn",
     "Sour Patch Kids", 
     "Grape Slushy"
@@ -38,9 +39,16 @@ cartIteams.shift ()
 console.log(cartIteams) 
 //["Popcorn", "Sour Patch Kids", "Grape Slushy"]
 
-// Task 4 - Price Adjustments
 
+// Task 4 - Price Adjustments
 let price = [100, 200, 300]
 let discountedPrices = price.map(price => price * 0.1);
 console.log(discountedPrices) // Output [10, 20, 30]
+
+
+// Task 5 - Product Availability
+const inventory = [5, 0, 12, 8, 0]
+const availableProducts = inventory.filter(quantity => quantity > 0); //Remove products with 0 quantity 
+console.log(availableProducts) // Output = [5, 12, 8]
+
 
