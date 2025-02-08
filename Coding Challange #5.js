@@ -59,22 +59,22 @@ console.log(totalRevenue) //Output = 1400
 // Task 7 - Customer Search
  let customers = ["Alice", "Bob", "Charlie", "David"];
  let findCustomer = customers.find (customer => customer == "Charlie");
- console.log(findCustomer)
+ console.log(findCustomer) // output "Charlie"
 
  // Task 8 - Tax Calculation
  function calculateTax(amount, taxRate) {
     return (amount * taxRate)
  }
- console.log(calculateTax(500, 0.1))
+ console.log(calculateTax(500, 0.1)) // output = 50
 
 // Task 9 - Discount Application
 function calculateDiscount(price, discount) {
     return (price * discount)
 }
-console.lod(calculateDiscount(1000, 0.25))
+console.lod(calculateDiscount(1000, 0.25)) // output = $250 off
 
 // Task 10 - Loyalty Points
 const calculatePoints = (revenue, points) => revenue/10;
-console.log(calculatePoints(1200))
+console.log(calculatePoints(1200)) //Output = 120 points
 
 
