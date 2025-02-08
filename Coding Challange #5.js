@@ -67,3 +67,8 @@ console.log(totalRevenue) //Output = 1400
  }
  console.log(calculateTax(500, 0.1))
 
+// Task 9 - Discount Application
+function calculateDiscount(price, discount) {
+    return (price * discount)
+}
+console.lod(calculateDiscount(1000, 0.25))
